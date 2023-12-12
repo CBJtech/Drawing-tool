@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Drawing Tool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <section class="container">
+        <h1>Simple Drawing Tool</h1>
+    <canvas id="drawingCanvas" width="600" height="600"></canvas>
+    <br>
+    <div class="targets">
+        
+    <label for="colorPicker">Brush Color:</label>
+    <input type="color" id="colorPicker" value="#000000">
+    <br>
+    <label for="sizeSlider">Brush Size:</label>
+    <input type="range" id="sizeSlider" min="1" max="20" value="5">
+    <br>
+    <button onclick="clearCanvas()">Clear Canvas</button>
+       <br><br>
+      
+    </div>
+    </section>
+
+    <footer>
+        <hr>
+        <a href="https://cbjtech.github.io/portfolio/">CBJ.</a> All rights reserved!
+    </footer>
+    <script src="main.js"></script>
+    
+</body>
+</html>
+
+
